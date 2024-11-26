@@ -1,6 +1,7 @@
 '''
 1. Imprima a frase Escola de Dados da Alura!.
 2. Imprima seu nome e seu sobrenome seguindo a estrutura abaixo:
+Nome sobrenome
 3. Imprima o seu primeiro nome letra a letra. Por exemplo, meu nome é Mirla, então eu obtenho a seguinte saída:
     M
     I
@@ -13,3 +14,14 @@
 5. Imprima, em um único print, o atual ano que você está fazendo esse curso. O valor do ano deve ser um dado numérico e a saída do print deve ser a seguinte:
     Ano atual: [ano]
 '''
+
+print("Escola de dados da Alura!")
+
+print("Pedro Henrique")
+
+print("P\nE\nD\nR\nO")
+
+print(30, "dezembro", 2005)
+
+ano_atual = 2024
+print(ano_atual)
