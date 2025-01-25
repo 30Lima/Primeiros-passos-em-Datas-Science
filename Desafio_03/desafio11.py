@@ -33,5 +33,3 @@ elif lado_um != lado_dois and lado_dois != lado_tres:
     print("O triângulo é Escaleno.")
 else:
     ("Erro.")
-
-
