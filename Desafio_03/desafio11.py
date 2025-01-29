@@ -16,9 +16,8 @@ lado_dois = float(input("Digite outro número que represente o segundo lado de u
 lado_tres = float(input("Digite mais um número que represente o terceiro lado de um triângulo: "))
 print("")
 
-verificacao = lado_um + lado_tres
 
-if verificacao > lado_tres:
+if (lado_um + lado_dois > lado_tres) and (lado_dois + lado_tres > lado_um) and (lado_um + lado_tres > lado_dois):
     print("Verificamos os números digitados e é possível realizar um triângulo com eles!")
 else:
     print("Não é possível realizar um triângulo com os números digitados.")
